@@ -28,7 +28,9 @@ class Practica2 {
 				
 				break;
 			
-			case 2:
+			case 2:// para ahorrar el uso excesivo de case podemos utilizar una opcion especial de java para el manejo de formato de hora. 
+				//a su vez llamando a una clase hija para que el programa del padre no quede tan lleno de còdigo. 
+	
 				System.out.println("\nIngrese un Horario en formato de 24 Hrs: ");
 				System.out.print("> ");
 				int opcion2 = sc.nextInt();
